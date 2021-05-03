@@ -38,7 +38,7 @@ th {
            <form action="todo_store" method="post">
            @csrf
            <input type="text" name="name" id="">
-           <input type="date" name="date" id="">
+           <!-- <input type="date" name="date" id=""> -->
            <input type="submit" value="submit">
            </form>
         </div>
